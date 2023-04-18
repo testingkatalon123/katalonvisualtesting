@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+new,Chrome 112.0.0.0,eddssdad,,2023-04-17 21:03:49,2023-04-17 21:03:58,8.911s,PASSED
+,,,,,,,
+Test Cases/screenshotpls,Chrome 112.0.0.0,,,2023-04-17 21:03:50,2023-04-17 21:03:58,8.659s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-17 21:03:50,2023-04-17 21:03:53,2.761s,PASSED
+"navigateToUrl(""https://lightning.app.solverglobal.com/"")",Chrome 112.0.0.0,,,2023-04-17 21:03:53,2023-04-17 21:03:54,0.909s,PASSED
+"setText(findTestObject(""Object Repository/Page_Solver/input_Email_email""), ""mkim@solverglobal.com"")",Chrome 112.0.0.0,,,2023-04-17 21:03:54,2023-04-17 21:03:56,2.758s,PASSED
+"click(findTestObject(""Object Repository/Page_Solver/button_Next""))",Chrome 112.0.0.0,,,2023-04-17 21:03:56,2023-04-17 21:03:57,0.395s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Solver/input_Password_model.Password""), ""nBAqZCBhT5nQHzNSyI4ifQ=="")",Chrome 112.0.0.0,,,2023-04-17 21:03:57,2023-04-17 21:03:58,0.705s,PASSED
+"takeScreenshotAsCheckpoint(""homepage"")",Chrome 112.0.0.0,,,2023-04-17 21:03:58,2023-04-17 21:03:58,0.794s,PASSED
