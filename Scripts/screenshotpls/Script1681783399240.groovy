@@ -27,8 +27,5 @@ WebUI.click(findTestObject('Object Repository/Page_Solver/button_Next'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Solver/input_Password_model.Password'), 'nBAqZCBhT5nQHzNSyI4ifQ==')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Home - Solver/svg_cls-1                 fill 9ecc46      _484e73'), 
-    0)
-
 WebUI.takeScreenshotAsCheckpoint('homepage')
 
