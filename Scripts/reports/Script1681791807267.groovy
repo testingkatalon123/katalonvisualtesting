@@ -21,17 +21,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://lightning.app.solverglobal.com/')
 
+WebUI.waitForPageLoad(10)
+
 WebUI.setText(findTestObject('Object Repository/Page_Solver/input_Email_email'), 'mkim@solverglobal.com')
 
 WebUI.click(findTestObject('Object Repository/Page_Solver/ng-transclude_Next'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Solver/input_Password_model.Password'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Solver/input_Password_model.Password'), 20)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Solver/input_Password_model.Password'), 'nBAqZCBhT5nQHzNSyI4ifQ==')
 
 WebUI.click(findTestObject('Object Repository/Page_Solver/span_Sign in'))
 
-WebUI.waitForElementClickable(findTestObject('Page_Home - Solver/div_Report Templates'), 0)
+WebUI.waitForElementClickable(findTestObject('Page_Home - Solver/div_Report Templates'), 5)
 
 WebUI.takeScreenshotAsCheckpoint('landingpage')
 
@@ -39,15 +41,19 @@ WebUI.verifyElementClickable(findTestObject('Object Repository/Page_Home - Solve
 
 WebUI.click(findTestObject('Object Repository/Page_Home - Solver/div_Report Templates'))
 
-WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Report Templates - Solver/span_New'), 0)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Report Templates - Solver/span_New'), 4)
 
-WebUI.waitForElementClickable(findTestObject('Page_Report Templates - Solver/span_Mindy_Demo'), 0)
+WebUI.waitForElementClickable(findTestObject('Page_Report Templates - Solver/span_Mindy_Demo'), 5)
+
+WebUI.takeScreenshotAsCheckpoint('reportnames')
 
 WebUI.click(findTestObject('Object Repository/Page_Report Templates - Solver/span_Mindy_Demo'))
 
-WebUI.waitForElementClickable(findTestObject('Page_Mindy_Demo - Solver/button_Run'), 0)
+WebUI.waitForElementClickable(findTestObject('Page_Mindy_Demo - Solver/button_Run'), 5)
 
 WebUI.click(findTestObject('Object Repository/Page_Mindy_Demo - Solver/ng-transclude_Run'))
+
+WebUI.waitForPageLoad(20)
 
 WebUI.takeScreenshotAsCheckpoint('blankreport')
 

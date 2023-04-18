@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+newwwww,Chrome 112.0.0.0,,,2023-04-17 22:23:53,2023-04-17 22:24:21,27.394s,PASSED
+,,,,,,,
+Test Cases/reports,Chrome 112.0.0.0,,,2023-04-17 22:23:53,2023-04-17 22:24:21,27.149s,PASSED
+"openBrowser("""")",Chrome 112.0.0.0,,,2023-04-17 22:23:54,2023-04-17 22:23:57,2.753s,PASSED
+"navigateToUrl(""https://lightning.app.solverglobal.com/"")",Chrome 112.0.0.0,,,2023-04-17 22:23:57,2023-04-17 22:23:58,1.126s,PASSED
+waitForPageLoad(10),Chrome 112.0.0.0,,,2023-04-17 22:23:58,2023-04-17 22:23:58,0.157s,PASSED
+"setText(findTestObject(""Object Repository/Page_Solver/input_Email_email""), ""mkim@solverglobal.com"")",Chrome 112.0.0.0,,,2023-04-17 22:23:58,2023-04-17 22:24:01,2.672s,PASSED
+"click(findTestObject(""Object Repository/Page_Solver/ng-transclude_Next""))",Chrome 112.0.0.0,,,2023-04-17 22:24:01,2023-04-17 22:24:01,0.410s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Solver/input_Password_model.Password""), 20)",Chrome 112.0.0.0,,,2023-04-17 22:24:01,2023-04-17 22:24:02,0.660s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Solver/input_Password_model.Password""), ""nBAqZCBhT5nQHzNSyI4ifQ=="")",Chrome 112.0.0.0,,,2023-04-17 22:24:02,2023-04-17 22:24:02,0.445s,PASSED
+"click(findTestObject(""Object Repository/Page_Solver/span_Sign in""))",Chrome 112.0.0.0,,,2023-04-17 22:24:02,2023-04-17 22:24:03,0.479s,PASSED
+"waitForElementClickable(findTestObject(""Page_Home - Solver/div_Report Templates""), 5)",Chrome 112.0.0.0,,,2023-04-17 22:24:03,2023-04-17 22:24:08,5.159s,PASSED
+"takeScreenshotAsCheckpoint(""landingpage"")",Chrome 112.0.0.0,,,2023-04-17 22:24:08,2023-04-17 22:24:09,0.819s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_Home - Solver/div_Report Templates""))",Chrome 112.0.0.0,,,2023-04-17 22:24:09,2023-04-17 22:24:10,1.444s,PASSED
+"click(findTestObject(""Object Repository/Page_Home - Solver/div_Report Templates""))",Chrome 112.0.0.0,,,2023-04-17 22:24:10,2023-04-17 22:24:12,1.498s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/Page_Report Templates - Solver/span_New""), 4)",Chrome 112.0.0.0,,,2023-04-17 22:24:12,2023-04-17 22:24:15,3.394s,PASSED
+"waitForElementClickable(findTestObject(""Page_Report Templates - Solver/span_Mindy_Demo""), 5)",Chrome 112.0.0.0,,,2023-04-17 22:24:15,2023-04-17 22:24:15,0.433s,PASSED
+"takeScreenshotAsCheckpoint(""reportnames"")",Chrome 112.0.0.0,,,2023-04-17 22:24:15,2023-04-17 22:24:16,0.756s,PASSED
+"click(findTestObject(""Object Repository/Page_Report Templates - Solver/span_Mindy_Demo""))",Chrome 112.0.0.0,,,2023-04-17 22:24:16,2023-04-17 22:24:17,0.907s,PASSED
+"waitForElementClickable(findTestObject(""Page_Mindy_Demo - Solver/button_Run""), 5)",Chrome 112.0.0.0,,,2023-04-17 22:24:17,2023-04-17 22:24:19,1.907s,PASSED
+"click(findTestObject(""Object Repository/Page_Mindy_Demo - Solver/ng-transclude_Run""))",Chrome 112.0.0.0,,,2023-04-17 22:24:19,2023-04-17 22:24:19,0.400s,PASSED
+waitForPageLoad(20),Chrome 112.0.0.0,,,2023-04-17 22:24:19,2023-04-17 22:24:19,0.021s,PASSED
+"takeScreenshotAsCheckpoint(""blankreport"")",Chrome 112.0.0.0,,,2023-04-17 22:24:19,2023-04-17 22:24:21,1.274s,PASSED

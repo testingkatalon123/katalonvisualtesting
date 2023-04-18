@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="newwwww" time="27.394" tests="1" failures="0" errors="0">
+   <testsuite name="newwwww" tests="1" failures="0" errors="0" time="27.394" skipped="0" timestamp="2023-04-17 22:23:53" hostname="mkim - C1HXRG3" id="Test Suites/newwwww">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\mkim\\git\\katalonvisualtestingdsfsdf\\Reports\\20230417_222346\\newwwww\\20230417_222348"/>
+         <property name="logFiles" value="C:\\Users\\mkim\\git\\katalonvisualtestingdsfsdf\\Reports\\20230417_222346\\newwwww\\20230417_222348\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-landingpage.png, keyes\keyes-reportnames.png, keyes\keyes-blankreport.png"/>
+         <property name="hostName" value="mkim - C1HXRG3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 112.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.220"/>
+         <property name="sessionId" value="5a46c4b292af4e461f8da9061dd61423"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/reports" time="27.149" classname="Test Cases/reports" status="PASSED">
+         <system-out><![CDATA[2023-04-17 22:23:53 - [TEST_CASE][PASSED] - Test Cases/reports: Test Cases/reports
+
+2023-04-17 22:23:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-04-17 22:23:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-04-17 22:23:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-04-17 22:23:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-04-17 22:23:57 - [TEST_STEP][PASSED] - navigateToUrl("https://lightning.app.solverglobal.com/"): Navigate to 'https://lightning.app.solverglobal.com/' successfully
+
+2023-04-17 22:23:58 - [MESSAGE][PASSED] - Navigate to 'https://lightning.app.solverglobal.com/' successfully
+
+2023-04-17 22:23:58 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2023-04-17 22:23:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-04-17 22:23:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Solver/input_Email_email"), "mkim@solverglobal.com"): Text 'mkim@solverglobal.com' is set on object 'Object Repository/Page_Solver/input_Email_email'
+
+2023-04-17 22:24:01 - [MESSAGE][PASSED] - Text 'mkim@solverglobal.com' is set on object 'Object Repository/Page_Solver/input_Email_email'
+
+2023-04-17 22:24:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Solver/ng-transclude_Next")): Object: 'Object Repository/Page_Solver/ng-transclude_Next' is clicked on
+
+2023-04-17 22:24:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Solver/ng-transclude_Next' is clicked on
+
+2023-04-17 22:24:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Solver/input_Password_model.Password"), 20): Object 'Object Repository/Page_Solver/input_Password_model.Password' is present
+
+2023-04-17 22:24:02 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Solver/input_Password_model.Password' is present
+
+2023-04-17 22:24:02 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Solver/input_Password_model.Password"), "nBAqZCBhT5nQHzNSyI4ifQ=="): Text ****** has been set on object 'Object Repository/Page_Solver/input_Password_model.Password'
+
+2023-04-17 22:24:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Solver/input_Password_model.Password'
+
+2023-04-17 22:24:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Solver/span_Sign in")): Object: 'Object Repository/Page_Solver/span_Sign in' is clicked on
+
+2023-04-17 22:24:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Solver/span_Sign in' is clicked on
+
+2023-04-17 22:24:03 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Home - Solver/div_Report Templates"), 5): Object 'Object Repository/Page_Home - Solver/div_Report Templates' is clickable
+
+2023-04-17 22:24:07 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='anchor_af80fffc-c5d7-4d3b-a77e-46ba52b778a3']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-04-17 22:24:07 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Home - Solver/div_Report Templates'. Try using Self-healing.
+
+2023-04-17 22:24:08 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Home - Solver/div_Report Templates' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Ad Hoc Reporting'])[2]/following::div[1]'.
+
+2023-04-17 22:24:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home - Solver/div_Report Templates' is clickable
+
+2023-04-17 22:24:08 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("landingpage"): Taking screenshot successfully
+
+2023-04-17 22:24:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-17 22:24:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-landingpage.png]]
+
+2023-04-17 22:24:09 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_Home - Solver/div_Report Templates")): Object 'Object Repository/Page_Home - Solver/div_Report Templates' is clickable
+
+2023-04-17 22:24:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='anchor_af80fffc-c5d7-4d3b-a77e-46ba52b778a3']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-04-17 22:24:10 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Home - Solver/div_Report Templates'. Try using Self-healing.
+
+2023-04-17 22:24:10 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Home - Solver/div_Report Templates' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Ad Hoc Reporting'])[2]/following::div[1]'.
+
+2023-04-17 22:24:10 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Home - Solver/div_Report Templates' is clickable
+
+2023-04-17 22:24:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Home - Solver/div_Report Templates")): Object: 'Object Repository/Page_Home - Solver/div_Report Templates' is clicked on
+
+2023-04-17 22:24:11 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='anchor_af80fffc-c5d7-4d3b-a77e-46ba52b778a3']/div'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-04-17 22:24:11 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Home - Solver/div_Report Templates'. Try using Self-healing.
+
+2023-04-17 22:24:11 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Page_Home - Solver/div_Report Templates' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='Ad Hoc Reporting'])[2]/following::div[1]'.
+
+2023-04-17 22:24:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Home - Solver/div_Report Templates' is clicked on
+
+2023-04-17 22:24:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/Page_Report Templates - Solver/span_New"), 4): Object 'Object Repository/Page_Report Templates - Solver/span_New' is present
+
+2023-04-17 22:24:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Report Templates - Solver/span_New' is present
+
+2023-04-17 22:24:15 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Report Templates - Solver/span_Mindy_Demo"), 5): Object 'Object Repository/Page_Report Templates - Solver/span_Mindy_Demo' is clickable
+
+2023-04-17 22:24:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Report Templates - Solver/span_Mindy_Demo' is clickable
+
+2023-04-17 22:24:15 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("reportnames"): Taking screenshot successfully
+
+2023-04-17 22:24:16 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-17 22:24:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-reportnames.png]]
+
+2023-04-17 22:24:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Report Templates - Solver/span_Mindy_Demo")): Object: 'Object Repository/Page_Report Templates - Solver/span_Mindy_Demo' is clicked on
+
+2023-04-17 22:24:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Report Templates - Solver/span_Mindy_Demo' is clicked on
+
+2023-04-17 22:24:17 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Page_Mindy_Demo - Solver/button_Run"), 5): Object 'Object Repository/Page_Mindy_Demo - Solver/button_Run' is clickable
+
+2023-04-17 22:24:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Mindy_Demo - Solver/button_Run' is clickable
+
+2023-04-17 22:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Mindy_Demo - Solver/ng-transclude_Run")): Object: 'Object Repository/Page_Mindy_Demo - Solver/ng-transclude_Run' is clicked on
+
+2023-04-17 22:24:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Mindy_Demo - Solver/ng-transclude_Run' is clicked on
+
+2023-04-17 22:24:19 - [TEST_STEP][PASSED] - waitForPageLoad(20): Wait for page load successfully
+
+2023-04-17 22:24:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2023-04-17 22:24:19 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("blankreport"): Taking screenshot successfully
+
+2023-04-17 22:24:21 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-04-17 22:24:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-blankreport.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-04-17 22:23:53 - [TEST_SUITE][PASSED] - newwwww: Test Cases/reports]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

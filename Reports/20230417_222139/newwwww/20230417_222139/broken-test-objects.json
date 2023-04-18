@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Home - Solver/div_Report Templates",
+      "brokenLocator": "//a[@id\u003d\u0027anchor_af80fffc-c5d7-4d3b-a77e-46ba52b778a3\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Ad Hoc Reporting\u0027])[2]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230417_222139/newwwww/20230417_222139/Object Repository/Page_Home - Solver/div_Report Templates_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Home - Solver/div_Report Templates",
+      "brokenLocator": "//a[@id\u003d\u0027anchor_af80fffc-c5d7-4d3b-a77e-46ba52b778a3\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Report Templates\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20230417_222139/newwwww/20230417_222139/Object Repository/Page_Home - Solver/div_Report Templates_neighbor.png"
+    }
+  ]
+}
