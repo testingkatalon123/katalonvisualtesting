@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Report Templates</name>
+   <tag></tag>
+   <elementGuidId>1145b66c-8681-48dd-9582-fd97d5f3d14b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='anchor_af80fffc-c5d7-4d3b-a77e-46ba52b778a3']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#anchor_af80fffc-c5d7-4d3b-a77e-46ba52b778a3 > div.navbar__title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5c1d230f-0f0c-4310-bc40-624dd006f6e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>navbar__title</value>
+      <webElementGuid>a9590089-4fcb-49ab-929a-e99d4812c1fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Report Templates</value>
+      <webElementGuid>4ac817d9-9b12-4491-a981-f071bd5f51db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;anchor_af80fffc-c5d7-4d3b-a77e-46ba52b778a3&quot;)/div[@class=&quot;navbar__title&quot;]</value>
+      <webElementGuid>1e70ef4f-da77-4861-8c8d-e116ff177d1f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='anchor_af80fffc-c5d7-4d3b-a77e-46ba52b778a3']/div</value>
+      <webElementGuid>4913b520-e213-427d-a497-a801354b7be1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report Templates'])[1]/following::div[1]</value>
+      <webElementGuid>72b6748c-aa68-41df-a5c1-d8f3b0a2ef86</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ad Hoc Reporting'])[2]/following::div[1]</value>
+      <webElementGuid>1e635344-7dfd-47dd-a4f6-6a788e678b13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publisher'])[1]/preceding::div[1]</value>
+      <webElementGuid>5f76d91b-fd56-406a-be70-9171f64b7ce6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Publisher'])[2]/preceding::div[1]</value>
+      <webElementGuid>aadc951e-525d-4f65-bcc5-c07d6f14a31c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/a/div</value>
+      <webElementGuid>060917a8-5b37-4d96-a764-33ca1600c49f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Report Templates' or . = 'Report Templates')]</value>
+      <webElementGuid>23736473-a608-47dd-a7de-c279ae453c4b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

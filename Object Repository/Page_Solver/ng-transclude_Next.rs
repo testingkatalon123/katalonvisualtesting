@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ng-transclude_Next</name>
+   <tag></tag>
+   <elementGuidId>3a50c5dd-5184-4bf1-93ff-c60a1fb8a3e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='fullscreen-root-container']/div/div/div[2]/osr-login/osr-email-input/form/osr-submit-button/button/ng-transclude</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.osr-button.osr-button--primary > ng-transclude</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>ng-transclude</value>
+      <webElementGuid>b33e3170-4f0c-4282-a501-f95edab374c3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Next</value>
+      <webElementGuid>e612073f-b259-4ce8-84a7-d45a070d329a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__single_spa_angular_1&quot;)/ui-view[@class=&quot;ultimate ng-scope&quot;]/div[@id=&quot;fullscreen-root-container&quot;]/div[@class=&quot;login osrFlexItem&quot;]/div[@class=&quot;osrFlex&quot;]/div[@class=&quot;widget widget_container-login-form osrFlexItem osrFlexItem__grow ng-scope&quot;]/osr-login[@class=&quot;ng-scope ng-isolate-scope&quot;]/osr-email-input[@class=&quot;ng-scope ng-isolate-scope&quot;]/form[@class=&quot;ng-valid ng-dirty ng-valid-parse&quot;]/osr-submit-button[@class=&quot;ng-isolate-scope&quot;]/button[@class=&quot;osr-button osr-button--primary&quot;]/ng-transclude[1]</value>
+      <webElementGuid>e004ee68-4da1-4a11-8102-98e201c95b7e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='fullscreen-root-container']/div/div/div[2]/osr-login/osr-email-input/form/osr-submit-button/button/ng-transclude</value>
+      <webElementGuid>a9c78c2a-3f8a-4f79-bd61-0bfe77702762</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email'])[1]/following::ng-transclude[2]</value>
+      <webElementGuid>b04b02ba-502b-4661-bf80-a1868748f302</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::ng-transclude[2]</value>
+      <webElementGuid>d6f0fbd3-f6de-47a3-a52b-6aa723b47dca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Next']/parent::*</value>
+      <webElementGuid>a0b1db48-fd46-47e3-8e91-6ea92d04911b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/ng-transclude</value>
+      <webElementGuid>a9174b4f-55dc-4403-be95-5c23d3fab10e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//ng-transclude[(text() = 'Next' or . = 'Next')]</value>
+      <webElementGuid>dc1aed19-ff5c-41c0-9b5a-df81943d8b62</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

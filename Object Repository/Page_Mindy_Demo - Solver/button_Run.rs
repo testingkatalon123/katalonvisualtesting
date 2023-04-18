@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Run</name>
+   <tag></tag>
+   <elementGuidId>5d07c251-594f-42b2-930d-2750e7aedae0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[10]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.osr-button.osr-button--primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>48d91970-1f65-4975-bce5-4c9b6a02078e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>osr-button osr-button--primary</value>
+      <webElementGuid>a25f9e64-7988-4e97-8f15-34dc459b5295</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-class</name>
+      <type>Main</type>
+      <value>vm.class</value>
+      <webElementGuid>ec0f9782-c255-4d1d-8395-ef6e550d8f43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-disabled</name>
+      <type>Main</type>
+      <value>vm.ngDisabled</value>
+      <webElementGuid>6e536255-52c7-4106-9b06-e66b9c4276e6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>vm.click()</value>
+      <webElementGuid>545aa875-9c1a-4f5e-b7f8-12b9dbb51d51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-qa-id</name>
+      <type>Main</type>
+      <value>run-button</value>
+      <webElementGuid>ad58de88-7cdb-4271-832c-00d0de9b0e99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c85363b3-8434-4a39-8e81-8d7a8418278c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                        
+
+ Run
+                                    </value>
+      <webElementGuid>d7ce8026-ebea-471f-b0cd-0d318d0f1a21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainReportArea&quot;)/div[@class=&quot;osrFlexItem osrFlexItem__static osrFlexItem__spaceBottom osrReportPlayer--parametersContainer&quot;]/form[@class=&quot;ng-pristine ng-valid&quot;]/div[1]/osr-collapse-container[@class=&quot;osrReportPlayer--parametersContainer ng-isolate-scope&quot;]/div[@class=&quot;osr-collapse-container&quot;]/div[@class=&quot;osr-collapse-container__body&quot;]/osr-button[@class=&quot;osrReportPlayer--parametersContainer--button ng-scope ng-isolate-scope&quot;]/button[@class=&quot;osr-button osr-button--primary&quot;]</value>
+      <webElementGuid>37d61e13-0360-4b65-b214-47661fe6aa58</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[10]</value>
+      <webElementGuid>8c5f2e71-f644-498d-9434-1e34d96d1ef8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mainReportArea']/div/form/div/osr-collapse-container/div/div/osr-button/button</value>
+      <webElementGuid>9a39d132-c811-47de-b4d1-f2bc628153fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Report parameters'])[1]/following::button[1]</value>
+      <webElementGuid>b5edbf0d-7d5d-43da-9f78-d594ab5bf7cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Run in Report Designer'])[1]/following::button[3]</value>
+      <webElementGuid>26d98c83-ece5-4c5e-ae6e-c64ecabc93b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data Warehouse'])[3]/preceding::button[1]</value>
+      <webElementGuid>6921665f-6fa8-4cda-93e1-18eb9895c69b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//osr-button/button</value>
+      <webElementGuid>feec487c-76da-426e-80e4-851ff10b1dc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '
+                                        
+
+ Run
+                                    ' or . = '
+                                        
+
+ Run
+                                    ')]</value>
+      <webElementGuid>b9239226-b08c-4a76-96fc-75d772314e08</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

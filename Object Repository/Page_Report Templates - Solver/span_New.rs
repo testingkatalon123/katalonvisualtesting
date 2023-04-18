@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_New</name>
+   <tag></tag>
+   <elementGuidId>e4b255e7-f376-4b2b-9750-d94f1cd87dfa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__single_spa_angular_1']/ui-view/div/div/div/div/div/ur-command-bar/div/div/div/div/div/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ms-Button-flexContainer.flexContainer-50</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>adfbe291-aac6-497b-bad1-59cfe5aebd7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ms-Button-flexContainer flexContainer-50</value>
+      <webElementGuid>1f81b089-fd3f-4158-97df-16d2bd69ab1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-automationid</name>
+      <type>Main</type>
+      <value>splitbuttonprimary</value>
+      <webElementGuid>63c2a0a5-f2b7-4de0-aad8-04a2bb46fd20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>New</value>
+      <webElementGuid>48fed34e-d82a-447c-8621-d802e84f8ae0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__single_spa_angular_1&quot;)/ui-view[@class=&quot;ultimate ng-scope&quot;]/div[@class=&quot;osrLiveReporting ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;osrFlex osrFlex__row ng-scope&quot;]/div[@class=&quot;osrFlexItem&quot;]/div[@class=&quot;osrFlex&quot;]/ur-command-bar[@class=&quot;ur-commandbar ng-scope ng-isolate-scope&quot;]/div[1]/div[1]/div[1]/div[@class=&quot;ms-FocusZone css-45 ms-CommandBar root-42&quot;]/div[@class=&quot;ms-OverflowSet ms-CommandBar-primaryCommand primarySet-46&quot;]/div[@class=&quot;ms-OverflowSet-item item-47&quot;]/button[@class=&quot;ms-Button ms-Button--commandBar ms-Button--hasMenu ms-CommandBarItem-link ur-commandbar-button root-49&quot;]/span[@class=&quot;ms-Button-flexContainer flexContainer-50&quot;]</value>
+      <webElementGuid>0c20649b-73fa-48c5-957c-0897bdf78311</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__single_spa_angular_1']/ui-view/div/div/div/div/div/ur-command-bar/div/div/div/div/div/div/button/span</value>
+      <webElementGuid>b059a24d-a8cf-491b-9612-1295abe0cfff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recycle bin'])[1]/following::span[1]</value>
+      <webElementGuid>9656304a-9a68-49e7-ab19-375fc7e03966</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No parameters'])[1]/following::span[3]</value>
+      <webElementGuid>4298e1ab-2c77-43c3-a2ac-8e88bb026538</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit in Report Designer'])[1]/preceding::span[3]</value>
+      <webElementGuid>bfeb135e-601f-48e9-9c92-285d70b039ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ur-command-bar/div/div/div/div/div/div/button/span</value>
+      <webElementGuid>e9b7c5dc-22c8-4614-a278-1012bb4908bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'New' or . = 'New')]</value>
+      <webElementGuid>4ee88fbb-1e03-45aa-9442-9fedf5957ba9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

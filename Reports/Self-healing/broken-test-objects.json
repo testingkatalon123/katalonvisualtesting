@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Home - Solver/div_Report Templates",
+      "brokenLocator": "//a[@id\u003d\u0027anchor_af80fffc-c5d7-4d3b-a77e-46ba52b778a3\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Report Templates\u0027])[1]/following::div[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Home - Solver/div_Report Templates_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Solver/input_Email_email",
+      "brokenLocator": "//input[@name\u003d\u0027email\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Solver/input_Email_email_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Report Templates - Solver/span_New",
+      "brokenLocator": "//div[@id\u003d\u0027__single_spa_angular_1\u0027]/ui-view/div/div/div/div/div/ur-command-bar/div/div/div/div/div/div/button/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Edit in Report Designer\u0027])[1]/preceding::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Report Templates - Solver/span_New_neighbor.png"
+    }
+  ]
 }

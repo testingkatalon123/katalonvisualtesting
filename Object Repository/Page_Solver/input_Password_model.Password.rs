@@ -6,12 +6,12 @@
    <elementGuidId>b81e9ee6-ffd0-4b9d-a6b2-d38679adba74</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;model.Password&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='model.Password']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;model.Password&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fb15ca50-ecce-4612-8664-61e9fc4507d2</webElementGuid>
+      <webElementGuid>920c179b-28da-451e-a185-95c03f98e0af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>6d0ea5b2-d52c-4d56-aac8-33192138546e</webElementGuid>
+      <webElementGuid>77986eed-7230-48d2-9724-254a8550630f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>ng-attr-type</name>
       <type>Main</type>
       <value>{{ vm.showPassword ? 'text' : 'password' }}</value>
-      <webElementGuid>60c3d2b6-4d3f-42e7-a49d-80556fbbbb82</webElementGuid>
+      <webElementGuid>48c52e2d-ab3e-4ecc-aa31-481d28cabca7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +46,15 @@
       <name>name</name>
       <type>Main</type>
       <value>model.Password</value>
-      <webElementGuid>72a12f78-fabe-4e13-a059-5a84cdf96a0d</webElementGuid>
+      <webElementGuid>58d57eb3-ec55-4dbf-a68a-31a64cc1e724</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>osr-text-box__input ng-untouched ng-valid ng-valid-required ng-valid-minlength ng-valid-policy ng-not-empty ng-dirty ng-valid-parse</value>
-      <webElementGuid>60872748-eaa7-4359-9414-30d26b47ad7f</webElementGuid>
+      <value>osr-text-box__input ng-pristine ng-valid ng-empty ng-valid-required ng-valid-minlength ng-valid-policy ng-touched</value>
+      <webElementGuid>b2b16eb8-f82a-4a5d-ab35-e922547b4fb5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>vm.ngModel</value>
-      <webElementGuid>44ed74dd-dbdb-4ac7-aa89-7cb3318b0083</webElementGuid>
+      <webElementGuid>1b54b802-9098-4044-be7e-1687891863ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>ng-change</name>
       <type>Main</type>
       <value>vm.onChange()</value>
-      <webElementGuid>d55ce533-ba8f-4c4f-9b78-32ae262fb595</webElementGuid>
+      <webElementGuid>5fb6810e-223a-46f3-a289-ba699b6f2a5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>ng-required</name>
       <type>Main</type>
       <value>vm.required</value>
-      <webElementGuid>4177a902-254f-4ec1-9b29-b68c7dccb284</webElementGuid>
+      <webElementGuid>63c41493-1868-4c52-8b04-2ccc48a405ea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>ng-disabled</name>
       <type>Main</type>
       <value>vm.ngDisabled</value>
-      <webElementGuid>bdf3d708-f584-4685-b8ea-b05c3b6d80bd</webElementGuid>
+      <webElementGuid>2aaec709-220f-4d11-aca8-846814c459ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>data-qa-id</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>1786396f-19a7-4755-b617-eeb7ba9b9844</webElementGuid>
+      <webElementGuid>8406844e-670e-499e-a410-ce725a6ae31a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>ng-minlength</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>7748fe40-3546-4fcc-90d5-c37186a13580</webElementGuid>
+      <webElementGuid>8f7e7fcf-5eb9-4618-8aeb-f61b6b3e1912</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,15 +110,15 @@
       <name>ng-attr-autocomplete</name>
       <type>Main</type>
       <value>{{vm.autocomplete == false ? 'off' : ''}}</value>
-      <webElementGuid>164c10c2-9f5a-49dc-ad6e-b46a13b824a9</webElementGuid>
+      <webElementGuid>e3903ce1-5c4e-4191-8e87-eadc1a5c2dc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__single_spa_angular_1&quot;)/ui-view[@class=&quot;ultimate ng-scope&quot;]/div[@id=&quot;fullscreen-root-container&quot;]/div[@class=&quot;login osrFlexItem&quot;]/div[@class=&quot;osrFlex&quot;]/div[@class=&quot;widget widget_container-login-form osrFlexItem osrFlexItem__grow ng-scope&quot;]/osr-login[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ng-scope&quot;]/osr-login-osr[@class=&quot;ng-scope ng-isolate-scope&quot;]/form[@class=&quot;ng-valid ng-scope ng-valid-email ng-valid-required ng-valid-minlength ng-valid-policy ng-dirty ng-valid-parse&quot;]/osr-label[@class=&quot;ng-isolate-scope&quot;]/ng-transclude[1]/osr-password-box[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ng-not-empty&quot;]/div[@class=&quot;ng-valid ng-valid-required ng-valid-minlength ng-valid-policy ng-dirty ng-valid-parse&quot;]/div[@class=&quot;osr-text-box&quot;]/input[@class=&quot;osr-text-box__input ng-untouched ng-valid ng-valid-required ng-valid-minlength ng-valid-policy ng-not-empty ng-dirty ng-valid-parse&quot;]</value>
-      <webElementGuid>6528acdf-a784-4a57-b229-6002a293d19f</webElementGuid>
+      <value>id(&quot;__single_spa_angular_1&quot;)/ui-view[@class=&quot;ultimate ng-scope&quot;]/div[@id=&quot;fullscreen-root-container&quot;]/div[@class=&quot;login osrFlexItem&quot;]/div[@class=&quot;osrFlex&quot;]/div[@class=&quot;widget widget_container-login-form osrFlexItem osrFlexItem__grow ng-scope&quot;]/osr-login[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ng-scope&quot;]/osr-login-osr[@class=&quot;ng-scope ng-isolate-scope&quot;]/form[@class=&quot;ng-pristine ng-valid ng-scope ng-valid-email ng-valid-required ng-valid-minlength ng-valid-policy&quot;]/osr-label[@class=&quot;ng-isolate-scope&quot;]/ng-transclude[1]/osr-password-box[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ng-empty&quot;]/div[@class=&quot;ng-pristine ng-valid ng-valid-required ng-valid-minlength ng-valid-policy&quot;]/div[@class=&quot;osr-text-box&quot;]/input[@class=&quot;osr-text-box__input ng-pristine ng-valid ng-empty ng-valid-required ng-valid-minlength ng-valid-policy ng-touched&quot;]</value>
+      <webElementGuid>87f91b4c-04f5-468c-b2cb-f306dff00aa8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='model.Password']</value>
-      <webElementGuid>84b0b0a6-b03f-435f-bb44-43be262bb2b2</webElementGuid>
+      <webElementGuid>0fadc87a-54a0-44ce-aeb3-c62366686a08</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='fullscreen-root-container']/div/div/div[2]/osr-login/div/osr-login-osr/form/osr-label/ng-transclude/osr-password-box/div/div/input</value>
-      <webElementGuid>85773aa0-5829-414b-bf81-1c663b9b761e</webElementGuid>
+      <webElementGuid>400a5841-fc9f-470b-8a19-490a7bf07c21</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/input</value>
-      <webElementGuid>92ef7cb6-30d0-4d37-8c70-b575a169cd29</webElementGuid>
+      <webElementGuid>ca71d19c-e76a-4775-9d73-63cc0ee8b2ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @name = 'model.Password']</value>
-      <webElementGuid>b7996579-52f0-4144-b9a0-6849e3f8f62d</webElementGuid>
+      <webElementGuid>8475f320-6ea7-4ce6-9324-34c79d18e7c7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

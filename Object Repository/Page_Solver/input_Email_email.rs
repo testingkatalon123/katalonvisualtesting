@@ -6,12 +6,12 @@
    <elementGuidId>3ec723df-4c48-4d37-a89d-aa442d4dfc69</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;email&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='email']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;email&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a87b696c-e93d-4141-b5f0-8e3b3ae42c8b</webElementGuid>
+      <webElementGuid>2ee763e7-59f4-4c5d-97fb-dbf2bca1cfab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>osr-text-box__input  ng-empty</value>
-      <webElementGuid>c1aa9ef8-aead-444d-9066-ece79bca0eac</webElementGuid>
+      <value>osr-text-box__input  ng-not-empty ng-dirty ng-valid-parse</value>
+      <webElementGuid>6c350b3a-4e9f-4328-a2ff-865b8e2929d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>6a9d1cf1-2d35-4bd6-9314-47ebdba05798</webElementGuid>
+      <webElementGuid>6cf4bb86-2490-4c93-bb29-a04da67587c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>vm.ngModel</value>
-      <webElementGuid>dd9df780-5d45-40f9-8d72-5e3fad091809</webElementGuid>
+      <webElementGuid>c18ba1d7-e081-48bb-be45-3fd42302849c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,15 +54,15 @@
       <name>data-qa-id</name>
       <type>Main</type>
       <value>email-text-box</value>
-      <webElementGuid>483ce825-8e21-4a4e-94cc-fd357f929f85</webElementGuid>
+      <webElementGuid>4b870872-30ae-4ce0-8193-a690ef9c86fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;__single_spa_angular_1&quot;)/ui-view[@class=&quot;ultimate ng-scope&quot;]/div[@id=&quot;fullscreen-root-container&quot;]/div[@class=&quot;login osrFlexItem&quot;]/div[@class=&quot;osrFlex&quot;]/div[@class=&quot;widget widget_container-login-form osrFlexItem osrFlexItem__grow ng-scope&quot;]/osr-login[@class=&quot;ng-scope ng-isolate-scope&quot;]/osr-email-input[@class=&quot;ng-scope ng-isolate-scope&quot;]/form[@class=&quot;ng-pristine ng-valid&quot;]/osr-label[@class=&quot;ng-isolate-scope&quot;]/ng-transclude[1]/osr-text-box[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ng-empty&quot;]/div[@class=&quot;osr-text-box&quot;]/input[@class=&quot;osr-text-box__input  ng-empty&quot;]</value>
-      <webElementGuid>d71c8b16-418e-42a5-a29d-e1520a349904</webElementGuid>
+      <value>id(&quot;__single_spa_angular_1&quot;)/ui-view[@class=&quot;ultimate ng-scope&quot;]/div[@id=&quot;fullscreen-root-container&quot;]/div[@class=&quot;login osrFlexItem&quot;]/div[@class=&quot;osrFlex&quot;]/div[@class=&quot;widget widget_container-login-form osrFlexItem osrFlexItem__grow ng-scope&quot;]/osr-login[@class=&quot;ng-scope ng-isolate-scope&quot;]/osr-email-input[@class=&quot;ng-scope ng-isolate-scope&quot;]/form[@class=&quot;ng-valid ng-dirty ng-valid-parse&quot;]/osr-label[@class=&quot;ng-isolate-scope&quot;]/ng-transclude[1]/osr-text-box[@class=&quot;ng-pristine ng-untouched ng-valid ng-scope ng-isolate-scope ng-not-empty&quot;]/div[@class=&quot;osr-text-box&quot;]/input[@class=&quot;osr-text-box__input  ng-not-empty ng-dirty ng-valid-parse&quot;]</value>
+      <webElementGuid>74c0452b-580f-448d-b1ce-32fd838855df</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='email']</value>
-      <webElementGuid>705507b3-8524-4a2f-9a60-fca156d4da82</webElementGuid>
+      <webElementGuid>ef54c0b0-90fd-4bcb-8c66-9d6b10be04d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='fullscreen-root-container']/div/div/div[2]/osr-login/osr-email-input/form/osr-label/ng-transclude/osr-text-box/div/input</value>
-      <webElementGuid>1c6e147c-857f-4ba6-8a15-87bcabc1e202</webElementGuid>
+      <webElementGuid>ff585ad7-44de-414d-aa14-8b5949edc36b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>b81d0e76-21c6-470a-9c2b-86b7a6062600</webElementGuid>
+      <webElementGuid>4a504db2-b123-4f91-8ad6-73de3c4dd30a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'email']</value>
-      <webElementGuid>b20d834b-0249-405b-a4fd-36bb6e5388eb</webElementGuid>
+      <webElementGuid>9e12a68d-c0d4-4715-bd83-b810e30e441b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
